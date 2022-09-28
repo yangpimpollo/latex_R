@@ -1,0 +1,58 @@
+% edit by @yang pimpollo
+
+\documentclass[12pt]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\pagenumbering{gobble}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{listings}
+
+
+\definecolor{Micolor1}{RGB}{214, 16, 67}
+\definecolor{Micolor2}{RGB}{0, 8, 255}
+\definecolor{gris}{RGB}{90, 90, 90}
+
+\title{\textcolor{Micolor1}{Inferencia Estadística}}
+\author{\textcolor{Micolor2}{Lin Chiu Chen Yang }\\
+}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{Escudo_UNI.png}
+    
+    \label{fig:my_label}
+\end{figure}
+
+\markboth{}{Inferencia Estadística}
+\cfoot[edit by @yang\_Pimpollo]{edit by @yang\_Pimpollo}
+\maketitle
+
+\vfill
+\begin{flushright}
+\Large{\textbf{Universidad Nacional de Ingeniería}}\\
+\Large{\textbf{\textcolor{gris}{\normalsize Facultad de Ingeniería}}}\\
+\Large{\textbf{\textcolor{gris}{\normalsize Económica, Estadística y Ciencias Sociales}}}\\
+\Large{\textbf{\textcolor{gris}{\normalsize FIEECS}}}\\
+\Large{\textbf{\deptname}}\\
+\end{flushright}
+
+
+\newpage
+
+\include{parte1}
+\include{parte2}
+\include{parte3}
+\include{parte4}
+%\include{parte1}
+
+\end{document}
